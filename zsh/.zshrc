@@ -241,3 +241,4 @@ alias	conde='conda deactivate'
 alias   conact='conda activate'
 
 alias   Rno='R --no-restore'  #for R start without restore current .RData
+POWERLEVEL9K_DISABLE_GITSTATUS=true
