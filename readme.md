@@ -1,6 +1,4 @@
 # SCCAF-D: Single-Cell Analysis Framework for Deconvolution
-=====
-
 **SCCAF-D** is a novel method for **cell type deconvolution** in single-cell RNA-seq data. By integrating multiple single-cell datasets and employing advanced machine learning techniques, SCCAF-D produces optimized reference data to ensure reliable and accurate deconvolution results. This approach provides valuable insights into the cellular composition and heterogeneity of biological samples.
 
 ## Metadata Requirements
@@ -15,7 +13,7 @@ These three columns are critical for accurate cell type deconvolution using SCCA
 
 ## Parameters
 
-1. SCCAF-D requires the following parameters to perform deconvolution:
+SCCAF-D requires the following parameters to perform deconvolution:
    - **Bulk**: The bulk RNA-seq data used to be deconvolved.
    - **Reference**: The reference data used for deconvolution.
    - **Transformation** (string): The method for transforming both the bulk and reference data. Options include `none` (default), `log`, `sqrt`, and `vst`.
@@ -87,7 +85,6 @@ results <- SCCAF_D(param, python_home = python_home)
 ```
 
 ## Citation
------
 To cite SCCAF-D, please refer to the following:
 
 > Feng *et al.* "Alleviating batch effects in cell type deconvolution." (Preprint available at Research Square)
